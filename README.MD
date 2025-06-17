@@ -1,4 +1,4 @@
-Arquillian / Junit5 Test on Wildfly with EJB Service and/or Rest in JakarteEE 8.0
+Arquillian / Junit4 Test on Wildfly with EJB Service and/or Rest in JakarteEE 8.0
 
 small testproject with two services A / B deployed on an Wildfly and tested with arquillian and junit5
 
@@ -44,28 +44,10 @@ mvn clean install -Parq-jboss-managed -Dtest=at.it4health.test.suite.DemoSimpleS
 ````
 expected behaviour:
 two tests are Running
-````
-at.it4health.test.servicea.DemoSimpleServiceATest.functionATest 
-output: DemoSimpleServiceATest.functionATest executed: ModuleAService.functionA() called
-result: SUCCESS Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
-````
-````
-at.it4health.test.serviceb.DemoSimpleServiceBTest.functionATest
-output: DemoSimpleServiceBTest.functionATest executed...
-result: ERROR Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
-````
+TBD
 actual behaviour:
-````
-at.it4health.test.servicea.DemoSimpleServiceATest.functionATest
-output: DemoSimpleServiceATest.functionATest executed: ModuleAService.functionA() called
-result: SUCCESS Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
-````
-````
-at.it4health.test.serviceb.DemoSimpleServiceBTest.functionATest
-output: DemoSimpleServiceBTest.functionATest executed...
-result: SUCCESS Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
-````
-all is green also when directly fail is called
+TBD
+
 
 ## other descriptions are following...
 
